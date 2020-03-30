@@ -20,6 +20,13 @@ import LifecycleA from './components/LifecycleA';
 //import ParentComponent from './components/ParentComponent';
 //import ChildComponent from './components/ChildComponent'
 //import EventBind from './components/EventBind';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table'
+import RefsDemo from './components/RefsDemo'
+import FRInput from './components/FRInput'
+import FocusInput from './components/FocusInput'
+import PortalDemo from './components/PortalDemo'
+
 
 /*function App() {
   return (
@@ -52,14 +59,22 @@ class App extends Component {
      <ParentComponent/>
      <ChildComponent/>
      <UserGreeting/>
-      <Stylesheet primary ={true} />*/}
-      <FunctionClick/>
+      <Stylesheet primary ={true} />
+        */}
+      <FunctionClick/><br/>
+      
+      <RefsDemo/>
+      <FocusInput/>
+      <PortalDemo/>
+      <FRInput/>
+      <Table/>
       <LifecycleA/>
       <Inline/>
       <ClassClick/>
       <Counter/>
       <Message/>
       <NameList/>
+      <FragmentDemo/>
       {/*<Greet/>
       <Welcome name = "IIT" campus = "Bombay"/>
       <Welcome name = "VIT" campus = "Chennai"/>

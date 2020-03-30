@@ -19,7 +19,7 @@ class Message extends Component{
     return(
         <div>
             <h1>{this.state.message}</h1>
-            <button onClick={() => this.changeMessage()}>Subscribe</button>
+            <button  onClick={() => this.changeMessage()} className="btn btn-success">Subscribe</button>
         </div>
     ) 
     //return <h1>Welcome visitors</h1>
